@@ -1,0 +1,93 @@
+body{
+    background: #8338ec;
+    color: white;
+
+}
+
+.navbar{
+    background-color: #FFBE0B;
+    height: 30px;
+}
+
+.box{
+    background-color: #FF006E;
+    text-align: center;
+    max-width: fit-content;
+    margin-inline: auto;
+    font-size: 20px;
+}
+
+
+.header .logo{
+    float:left;
+    width:80px;
+
+}
+
+.header h1 h2{
+    position: relative;
+}
+#holder{
+    display: flex;
+
+   
+}
+
+#holder > .box1{
+    flex: 1; /*grow*/
+}
+
+.box1{
+    padding-left: 10%;
+    background: #fb5607;
+    padding-top: 1%;
+    margin: 5px;
+    width:max-content;
+}
+
+img{
+    width:70%;
+}
+
+.blueBox{
+    background: #3A86FF;
+    padding-top: 1%;
+    padding-left: 20%;
+    padding-bottom: 1%;
+}
+footer{
+    background-color: #FFBE0B;
+    text-align: center;
+}
+
+/*Price html page*/
+#soloBox{
+    background-color: #FF006E;
+    text-align: center;
+    width: 50%;
+
+}
+
+#typeBox{
+    background-color: #fb5607;
+    width: 50%;
+    
+}
+
+#caterBox{
+    background-color: #3A86FF;
+    width: 50%;
+}
+
+table,th,td{
+    border: 1px solid white
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#IceCreamBox{
+    padding-left: 30%;
+
+}
